@@ -4,22 +4,29 @@ Descripción del Repositorio de Códigos de Python para Cálculo de Cinemática 
 Este repositorio contiene tres programas en Python diseñados para calcular la Matriz de Transformación Homogénea (MTH), la matriz Jacobiana, y los vectores de velocidad de un robot con N Grados de Libertad (GDL). A continuación, se presenta una descripción detallada de cada uno de los programas incluidos:
 
 ## Programa 1: Cálculo de la MTH de un Robot de N GDL
-Autor: Mario Airy Hernandez Osorio
-Institución: Universidad Autónoma de Querétaro (UAQ)
-Curso: Robótica
-Instructor: Dr. Gerardo Pérez Soto
-Año: 2023-1
-Funcionalidad
+
+- **Autor:** Mario Airy Hernandez Osorio
+- **Institución:** Universidad Autónoma de Querétaro (UAQ)
+- **Curso:** Robótica
+- **Instructor:** Dr. Gerardo Pérez Soto
+- **Año:** 2023-1
+
+### Funcionalidad
+
 Este programa permite al usuario ingresar los parámetros de Denavit-Hartenberg (DH) para cada articulación de un robot de N GDL y calcular la Matriz de Transformación Homogénea (MTH) final. Adicionalmente, calcula los ángulos de Euler y el vector de posición del actuador final.
 
-Características
-Entrada interactiva de los parámetros DH.
-Conversión de ángulos de grados a radianes.
-Cálculo y visualización de las matrices de transformación individuales para cada articulación.
-Multiplicación de las matrices de transformación para obtener la MTH final.
-Cálculo de los ángulos de Euler y el vector de posición.
-Ejecución
+### Características
+
+- Entrada interactiva de los parámetros DH.
+- Conversión de ángulos de grados a radianes.
+- Cálculo y visualización de las matrices de transformación individuales para cada articulación.
+- Multiplicación de las matrices de transformación para obtener la MTH final.
+- Cálculo de los ángulos de Euler y el vector de posición.
+
+### Ejecución
+
 Para ejecutar el programa, basta con correr el script en un entorno de Python y seguir las instrucciones que aparecen en la consola para ingresar los datos requeridos.
+
 
 Programa 2: Cálculo de la MTH, Jacobiana y Velocidad de un Robot de N GDL
 Autor: Mario Airy Hernandez Osorio
