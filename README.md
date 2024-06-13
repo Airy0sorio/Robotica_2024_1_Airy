@@ -178,13 +178,13 @@ Antes de ejecutar los programas, sigue estos pasos:
 4. **Activación del entorno virtual:**
 Activa el entorno virtual con el siguiente comando:
     ```
-    .env\Scripts\activate
+   .env\Scripts\activate
     ```
 
 5. **Instalación de las librerías:**
 Instala las librerías utilizadas en el proyecto ejecutando el siguiente comando:
     ```
-     pip install -r requirements.txt
+   pip install -r requirements.txt
     ```
 
 6.**Ejecución del programa**
