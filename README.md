@@ -189,6 +189,7 @@ Instala las librerías utilizadas en el proyecto ejecutando el siguiente comando
 
 6.**Ejecución del programa**
 Una vez configurado el entorno, puedes ejecutar el programa escribiendo el siguiente comando en la terminal:    
+    
     ```
     python Nombre_del_archivo.py
     ```
