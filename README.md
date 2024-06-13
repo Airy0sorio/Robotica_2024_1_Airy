@@ -13,7 +13,7 @@ Este repositorio contiene tres programas en Python diseñados para calcular la M
 
 Este programa permite al usuario ingresar los parámetros de Denavit-Hartenberg (DH) para cada articulación de un robot de N GDL y calcular la Matriz de Transformación Homogénea (MTH) final. Adicionalmente, calcula los ángulos de Euler y el vector de posición del actuador final.
 
-### Características
+#### Características
 
 - Entrada interactiva de los parámetros DH.
 - Conversión de ángulos de grados a radianes.
