@@ -42,6 +42,20 @@ Este programa permite al usuario calcular la Matriz de Transformación Homogéne
 #### Ejecución
 Para ejecutar el programa, basta con correr el script en un entorno de Python y seguir las instrucciones que aparecen en la consola para ingresar los datos requeridos.
 
+### Solucionar Sistemas de Ecuaciones con Métodos Numéricos 
+Nombre del código: "Newton_Raphson"
+
+#### Funcionalidad
+Este programa resuelve un sistema de ecuaciones no lineales utilizando el método fsolve de SciPy. Las ecuaciones están definidas con respecto a un sistema físico que involucra ángulos y una variable de ajuste.
+
+#### Características
+- Definición de funciones de ecuaciones: Las funciones equations y jacobian encapsulan las ecuaciones y la matriz jacobiana del sistema respectivamente.
+- Ajuste de ángulos: Asegura que los ángulos calculados estén en el rango [0, 360) grados.
+- Uso de fsolve de SciPy: Utiliza un método robusto para encontrar la solución numérica a las ecuaciones no lineales.
+- Conversión y salida de resultados: Los resultados finales se convierten a grados y se imprimen de manera clara y legible.
+
+#### Ejecución
+Modificar los parametros dentro del codigo para el sistema de ecuaciones que deseas resolver
 ---
 
 ## Programa 2: Cálculo de la MTH, Jacobiana y Velocidad de un Robot de N GDL
