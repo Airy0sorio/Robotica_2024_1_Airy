@@ -124,20 +124,9 @@ Después de la ejecución, el programa muestra dos gráficos adicionales con los
 
 ---
 
-## Programa 3: Cálculo de la MTH, Jacobiana y Velocidad con Simulación de Movimiento
+## Proyectos
+### 1er parcial
+nombre del codigo: "Py_P1_Robot_RIIRXX" y "Py_P1_xxx"
 
-### Funcionalidad
-
-Este programa extiende las funcionalidades del segundo programa al incluir una simulación del movimiento del robot. Permite calcular la MTH, la matriz Jacobiana, el vector de velocidad y realizar una simulación de la trayectoria del robot.
-
-### Características
-
-- Cálculo de las matrices de transformación homogénea.
-- Construcción de la matriz Jacobiana.
-- Cálculo del vector de velocidad del actuador final.
-- Simulación de movimiento utilizando la integración de Euler.
-- Visualización gráfica de la trayectoria del robot y del error en la posición.
-
-### Ejecución
-
-El programa se ejecuta en un entorno de Python con soporte para gráficos (usando matplotlib). Permite al usuario ingresar los parámetros necesarios y visualizar la trayectoria simulada del robot junto con el error de posición en gráficos.
+#### Descripción
+Los codigos con el incio Py_P1_Robot_RIIR pertenecen al mismo proyecto estos describen el comportamiento de un Robot RIIR de 2 GDL el cual tiene como funcion dibujar diferentes figuras, mientras que "Py_P1_xxx" generan una comunicacion serial con un microcontrolador.
