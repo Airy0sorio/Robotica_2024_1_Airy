@@ -177,5 +177,5 @@ Antes de ejecutar los programas, sigue estos pasos:
 
 3. **Creación de un entorno virtual:**
    Abre la terminal integrada de VSCode y ejecuta el siguiente comando para crear un entorno virtual:
-        python -m venv ./env
+       ``` python -m venv ./env
  
