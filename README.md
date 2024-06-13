@@ -154,13 +154,7 @@ Este programa simula el movimiento de un robot de 2 GDL utilizando el método de
 
 - Guarda los ángulos de articulación (th1_euler_abierto.txt y th2_euler_abierto.txt) en archivos de texto para su posterior análisis.
 
-
-
-
-
-
-
-
+---
 
 ## Instrucciones para ejecutar los archivos en Python
 
