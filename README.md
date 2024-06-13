@@ -8,7 +8,9 @@
 Descripción del Repositorio de Códigos de Python para Cálculo de Cinemática de Robots de N GDL
 Este repositorio contiene tres programas en Python diseñados para calcular la Matriz de Transformación Homogénea (MTH), la matriz Jacobiana, y los vectores de velocidad de un robot con N Grados de Libertad (GDL). A continuación, se presenta una descripción detallada de cada uno de los programas incluidos:
 ## 1er parcial: 
-###Cálculo de la MTH de un Robot de N GDL
+
+### Cálculo de la MTH de un Robot de N GDL
+Nombre del codigo "Parametros_DH"
 #### Funcionalidad
 
 Este programa permite al usuario ingresar los parámetros de Denavit-Hartenberg (DH) para cada articulación de un robot de N GDL y calcular la Matriz de Transformación Homogénea (MTH) final. Adicionalmente, calcula los ángulos de Euler y el vector de posición del actuador final.
@@ -23,6 +25,21 @@ Este programa permite al usuario ingresar los parámetros de Denavit-Hartenberg 
 
 #### Ejecución
 
+Para ejecutar el programa, basta con correr el script en un entorno de Python y seguir las instrucciones que aparecen en la consola para ingresar los datos requeridos.
+
+### Cálculo de la MTH de un Robot de N GDL Simbólico
+Nombre del código: "Parametros_DH_syms"
+
+#### Funcionalidad
+Este programa permite al usuario calcular la Matriz de Transformación Homogénea (MTH) para un robot de N grados de libertad (GDL) utilizando parámetros de Denavit-Hartenberg (DH) simbólicos. Adicionalmente, el programa calcula el vector de posición y la matriz de rotación del actuador final.
+
+#### Características
+- Entrada interactiva de parámetros DH: Los usuarios pueden ingresar los parámetros de cada articulación del robot.
+- Conversión de ángulos: Convierte los ángulos de grados a radianes según sea necesario.
+- Cálculo de matrices de transformación: Calcula y visualiza las matrices de transformación individuales para cada articulación.
+- Multiplicación de matrices: Multiplica las matrices de transformación para obtener la MTH final.
+- Cálculo del vector de posición y matriz de rotación: Extrae y muestra el vector de posición y la matriz de rotación del actuador final.
+#### Ejecución
 Para ejecutar el programa, basta con correr el script en un entorno de Python y seguir las instrucciones que aparecen en la consola para ingresar los datos requeridos.
 
 ---
