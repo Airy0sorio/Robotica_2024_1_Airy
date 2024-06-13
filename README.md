@@ -125,8 +125,31 @@ Después de la ejecución, el programa muestra dos gráficos adicionales con los
 ---
 
 ## Proyectos
-### 1er parcial
-nombre del codigo: "Py_P1_Robot_RIIRXX" y "Py_P1_xxx"
+### 1er Parcial
+Nombre de los codigos: "Py_P1_Robot_RIIRXX" y "Py_P1_xxx"
 
 #### Descripción
 Los codigos con el incio Py_P1_Robot_RIIR pertenecen al mismo proyecto estos describen el comportamiento de un Robot RIIR de 2 GDL el cual tiene como funcion dibujar diferentes figuras, mientras que "Py_P1_xxx" generan una comunicacion serial con un microcontrolador.
+
+### 2do Parcial
+
+Nombre de los codigos: "Py_P2_Circulo" y "Py_P1_xxx"
+
+#### Descripción
+Este programa simula el movimiento de un robot de 2 GDL utilizando el método de integración de Euler. Calcula las posiciones articulares, la velocidad del actuador final y muestra gráficamente los errores en las coordenadas deseadas y las características de movimiento.
+
+####  Cálculos Principales:
+
+- Calcula la Jacobiana del robot en cada iteración.
+- Determina la velocidad de las articulaciones y el vector Q utilizando la Jacobiana y las velocidades deseadas.
+- Integra utilizando el método de Euler para actualizar las posiciones articulares.
+- Calcula los valores deseados y con la integración de Euler para comparar y visualizar los errores.
+
+#### Actualización y Visualización Gráfica:
+
+- Dibuja el movimiento del robot y actualiza los gráficos en tiempo real de los errores en las coordenadas deseadas.
+- Muestra gráficos adicionales de los ángulos de articulación y sus velocidades angulares a lo largo del tiempo.
+
+#### Almacenamiento de Resultados:
+
+- Guarda los ángulos de articulación (th1_euler_abierto.txt y th2_euler_abierto.txt) en archivos de texto para su posterior análisis.
