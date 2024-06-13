@@ -7,9 +7,9 @@
 
 Descripción del Repositorio de Códigos de Python para Cálculo de Cinemática de Robots de N GDL
 Este repositorio contiene tres programas en Python diseñados para calcular la Matriz de Transformación Homogénea (MTH), la matriz Jacobiana, y los vectores de velocidad de un robot con N Grados de Libertad (GDL). A continuación, se presenta una descripción detallada de cada uno de los programas incluidos:
-## Programa 1: Cálculo de la MTH de un Robot de N GDL
-
-### Funcionalidad
+## 1er parcial: 
+###Cálculo de la MTH de un Robot de N GDL
+#### Funcionalidad
 
 Este programa permite al usuario ingresar los parámetros de Denavit-Hartenberg (DH) para cada articulación de un robot de N GDL y calcular la Matriz de Transformación Homogénea (MTH) final. Adicionalmente, calcula los ángulos de Euler y el vector de posición del actuador final.
 
@@ -21,7 +21,7 @@ Este programa permite al usuario ingresar los parámetros de Denavit-Hartenberg 
 - Multiplicación de las matrices de transformación para obtener la MTH final.
 - Cálculo de los ángulos de Euler y el vector de posición.
 
-### Ejecución
+#### Ejecución
 
 Para ejecutar el programa, basta con correr el script en un entorno de Python y seguir las instrucciones que aparecen en la consola para ingresar los datos requeridos.
 
