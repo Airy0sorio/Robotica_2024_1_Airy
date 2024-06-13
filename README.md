@@ -101,7 +101,26 @@ Este programa calcula la matriz Jacobiana inversa de un robot de N grados de lib
 
 El programa se ejecuta en un entorno de Python, solicitando al usuario que ingrese los parámetros DH y el tipo de cada articulación. Luego, muestra los resultados de las matrices y los cálculos de velocidad.
 
+### Programa para Simulación de Robot de 2 GDL con Integración de Euler
+Nombre del código: "Integracion_euler"
 
+### Funcionalidad
+
+Este programa simula el movimiento de un robot de dos grados de libertad (GDL) utilizando integración de Euler para calcular las posiciones articulares y las velocidades. También muestra gráficamente los errores en las coordenadas deseadas y los ángulos de articulación.
+
+### Características
+
+-Longitudes de los brazos: Define las longitudes de los dos brazos del robot.
+- Delta de tiempo y tiempo final: Especifica el paso de integración y el tiempo total de simulación.
+- Integración de Euler: Utiliza el método de Euler para calcular las posiciones articulares y las velocidades angulares a partir de las velocidades lineales deseadas.
+- Visualización Gráfica: Muestra gráficos en tiempo real de las posiciones del robot, errores en las coordenadas deseadas y ángulos de articulación.
+
+### Ejecución
+
+- Interacción con el programa:
+Observa la simulación en tiempo real del movimiento del robot y los gráficos que muestran los errores en las coordenadas deseadas y los ángulos de articulación.
+- Visualización de resultados:
+Después de la ejecución, el programa muestra dos gráficos adicionales con los ángulos de articulación y sus velocidades angulares a lo largo del tiempo.
 
 ---
 
