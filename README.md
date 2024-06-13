@@ -24,7 +24,6 @@ Este programa permite al usuario ingresar los parámetros de Denavit-Hartenberg 
 - Cálculo de los ángulos de Euler y el vector de posición.
 
 #### Ejecución
-
 Para ejecutar el programa, basta con correr el script en un entorno de Python y seguir las instrucciones que aparecen en la consola para ingresar los datos requeridos.
 
 ### Cálculo de la MTH de un Robot de N GDL Simbólico
@@ -56,6 +55,7 @@ Este programa resuelve un sistema de ecuaciones no lineales utilizando el métod
 
 #### Ejecución
 Modificar los parametros dentro del codigo para el sistema de ecuaciones que deseas resolver
+
 ---
 
 ## Programa 2: Cálculo de la MTH, Jacobiana y Velocidad de un Robot de N GDL
