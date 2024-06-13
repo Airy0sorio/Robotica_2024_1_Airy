@@ -183,5 +183,14 @@ Activa el entorno virtual con el siguiente comando:
 
 5. **Instalación de las librerías:**
 Instala las librerías utilizadas en el proyecto ejecutando el siguiente comando:
+    ```
+     pip install -r requirements.txt
+    ```
 
-
+6.**Ejecución del programa**
+Una vez configurado el entorno, puedes ejecutar el programa escribiendo el siguiente comando en la terminal:    
+    ```
+    python Nombre_del_archivo.py
+    ```
+Para futuras ejecuciones, simplemente activa el entorno virtual y ejecuta el archivo Python que deseas correr. 
+Los pasos 4 y 6 son suficientes para ejecutar cualquier código adicional.
