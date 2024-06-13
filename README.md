@@ -156,6 +156,14 @@ Este programa simula el movimiento de un robot de 2 GDL utilizando el método de
 
 ---
 
+## Clonar repositorio
+Para crear una copia del proyecto puedes utilizar:
+
+```
+git clone https://github.com/Airy0sorio/Robotica_2024_1_Airy
+```
+---
+
 ## Instrucciones para ejecutar los archivos en Python
 
 Este repositorio contiene archivos Python para ejecutar diversas funciones. Para hacerlo de manera efectiva, se recomienda utilizar el editor de código Visual Studio Code (VSCode).
