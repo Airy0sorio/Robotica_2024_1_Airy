@@ -162,7 +162,7 @@ Este programa simula el movimiento de un robot de 2 GDL utilizando el método de
 
 
 
-# Instrucciones para ejecutar los archivos en Python
+## Instrucciones para ejecutar los archivos en Python
 
 Este repositorio contiene archivos Python para ejecutar diversas funciones. Para hacerlo de manera efectiva, se recomienda utilizar el editor de código Visual Studio Code (VSCode).
 
@@ -177,4 +177,5 @@ Antes de ejecutar los programas, sigue estos pasos:
 
 3. **Creación de un entorno virtual:**
    Abre la terminal integrada de VSCode y ejecuta el siguiente comando para crear un entorno virtual:
-
+        python -m venv ./env
+ 
