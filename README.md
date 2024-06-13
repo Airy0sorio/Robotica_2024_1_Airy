@@ -1,14 +1,13 @@
 # Robotica_2024_1_Airy
-
-Descripción del Repositorio de Códigos de Python para Cálculo de Cinemática de Robots de N GDL
-Este repositorio contiene tres programas en Python diseñados para calcular la Matriz de Transformación Homogénea (MTH), la matriz Jacobiana, y los vectores de velocidad de un robot con N Grados de Libertad (GDL). A continuación, se presenta una descripción detallada de cada uno de los programas incluidos:
-## Programa 1: Cálculo de la MTH de un Robot de N GDL
-
 - **Autor:** Mario Airy Hernandez Osorio
 - **Institución:** Universidad Autónoma de Querétaro (UAQ)
 - **Curso:** Robótica
 - **Instructor:** Dr. Gerardo Pérez Soto
-- **Año:** 2023-1
+- **Año:** 2024-1
+
+Descripción del Repositorio de Códigos de Python para Cálculo de Cinemática de Robots de N GDL
+Este repositorio contiene tres programas en Python diseñados para calcular la Matriz de Transformación Homogénea (MTH), la matriz Jacobiana, y los vectores de velocidad de un robot con N Grados de Libertad (GDL). A continuación, se presenta una descripción detallada de cada uno de los programas incluidos:
+## Programa 1: Cálculo de la MTH de un Robot de N GDL
 
 ### Funcionalidad
 
@@ -30,12 +29,6 @@ Para ejecutar el programa, basta con correr el script en un entorno de Python y 
 
 ## Programa 2: Cálculo de la MTH, Jacobiana y Velocidad de un Robot de N GDL
 
-- **Autor:** Mario Airy Hernandez Osorio
-- **Institución:** Universidad Autónoma de Querétaro (UAQ)
-- **Curso:** Robótica
-- **Instructor:** Dr. Gerardo Pérez Soto
-- **Año:** 2023-1
-
 ### Funcionalidad
 
 Este programa calcula las matrices de transformación homogénea, la matriz Jacobiana y el vector de velocidad de un robot de N GDL. El usuario ingresa los parámetros de DH y define el tipo de cada articulación (revoluta o prismática).
@@ -55,12 +48,6 @@ El programa se ejecuta en un entorno de Python, solicitando al usuario que ingre
 ---
 
 ## Programa 3: Cálculo de la MTH, Jacobiana y Velocidad con Simulación de Movimiento
-
-- **Autor:** Mario Airy Hernandez Osorio
-- **Institución:** Universidad Autónoma de Querétaro (UAQ)
-- **Curso:** Robótica
-- **Instructor:** Dr. Gerardo Pérez Soto
-- **Año:** 2023-1
 
 ### Funcionalidad
 
