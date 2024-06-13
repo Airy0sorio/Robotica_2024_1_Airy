@@ -153,3 +153,47 @@ Este programa simula el movimiento de un robot de 2 GDL utilizando el método de
 #### Almacenamiento de Resultados:
 
 - Guarda los ángulos de articulación (th1_euler_abierto.txt y th2_euler_abierto.txt) en archivos de texto para su posterior análisis.
+
+
+
+
+
+
+
+
+
+Instrucciones para ejecutar los archivos en Python
+Este repositorio contiene archivos Python para ejecutar diversas funciones. Para hacerlo de manera efectiva, 
+se recomienda utilizar el editor de código Visual Studio Code (VSCode).
+
+-Requisitos previos
+Antes de ejecutar los programas, sigue estos pasos:
+
+    1.Instalación de Python:
+    Asegúrate de tener Python instalado, se recomienda la versión 3.11.8.
+
+    2.Creación de una carpeta de proyecto:
+    Crea una carpeta donde se guardarán los archivos y recursos del proyecto.
+
+    3.Creación de un entorno virtual:
+    Abre la terminal integrada de VSCode y ejecuta el siguiente comando para crear un entorno virtual:
+
+        python -m venv ./env
+    
+    4.Activación del entorno virtual:
+    Activa el entorno virtual con el siguiente comando:
+
+        .env\Scripts\activate
+
+    5.Instalación de las librerías:
+    Instala las librerías utilizadas en el proyecto ejecutando el siguiente comando:
+
+        pip install -r libraries.txt
+
+-6.Ejecución del programa
+Una vez configurado el entorno, puedes ejecutar el programa escribiendo el siguiente comando en la terminal:    
+
+    python Nombre_del_archivo.py
+
+Para futuras ejecuciones, simplemente activa el entorno virtual y ejecuta el archivo Python que deseas correr. 
+Los pasos 4 y 6 son suficientes para ejecutar cualquier código adicional.
