@@ -60,6 +60,28 @@ Modificar los parametros dentro del codigo para el sistema de ecuaciones que des
 
 ## 2do Parcial: 
 
+### Programa para obtener la MTH por art, MTH final, Jacobiana y vector velocidad de un robot de n GDL
+Nombre del código: "Jacobiana_directa"
+
+### Funcionalidad
+
+Este programa calcula la Matriz de Transformación Homogénea (MTH) por cada articulación de un robot de N grados de libertad (GDL) utilizando los parámetros de Denavit-Hartenberg (DH). Además, determina la MTH final del robot, la matriz Jacobiana (Jn) y el vector de velocidad del actuador final.
+
+### Características
+
+- Uso de parámetros DH: Permite definir los parámetros de cada articulación (t, d, a, alfa).
+- Cálculo de MTH por articulación: Calcula y muestra las matrices de transformación homogénea individuales.
+- Multiplicación de matrices: Calcula la MTH final combinando las matrices de transformación de cada articulación.
+- Determinación del tipo de articulación: Identifica si cada articulación es revoluta o prismática.
+- Construcción de la matriz Jacobiana: Crea la matriz Jacobiana (Jn) para el robot en función de las posiciones articulares y velocidades.
+ -Cálculo del vector de velocidad: Utiliza la Jacobiana para determinar el vector de velocidad del actuador final en términos lineales y angulares.
+
+### Ejecución
+
+El programa se ejecuta en un entorno de Python, solicitando al usuario que ingrese los parámetros DH, el tipo de cada articulación y el vector velocidad actuador final debe ser de 6x1. Luego, muestra los resultados de las matrices y los cálculos de velocidad.
+
+
+
 ### Programa para calcular la Jacobiana Inversa de un robot de n GDL
 Nombre del código: "Jacobiana_Inversa"
 
