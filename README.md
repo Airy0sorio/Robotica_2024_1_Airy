@@ -9,7 +9,7 @@ Descripción del Repositorio de Códigos de Python para Cálculo de Cinemática 
 Este repositorio contiene tres programas en Python diseñados para calcular la Matriz de Transformación Homogénea (MTH), la matriz Jacobiana, y los vectores de velocidad de un robot con N Grados de Libertad (GDL). A continuación, se presenta una descripción detallada de cada uno de los programas incluidos:
 ## 1er parcial: 
 
-### Cálculo de la MTH de un Robot de N GDL
+### 1. Cálculo de la MTH de un Robot de N GDL
 Nombre del codigo "Parametros_DH"
 #### Funcionalidad
 
@@ -26,7 +26,7 @@ Este programa permite al usuario ingresar los parámetros de Denavit-Hartenberg 
 #### Ejecución
 Para ejecutar el programa, basta con correr el script en un entorno de Python y seguir las instrucciones que aparecen en la consola para ingresar los datos requeridos.
 
-### Cálculo de la MTH de un Robot de N GDL Simbólico
+### 2. Cálculo de la MTH de un Robot de N GDL Simbólico
 Nombre del código: "Parametros_DH_syms"
 
 #### Funcionalidad
@@ -41,7 +41,7 @@ Este programa permite al usuario calcular la Matriz de Transformación Homogéne
 #### Ejecución
 Para ejecutar el programa, basta con correr el script en un entorno de Python y seguir las instrucciones que aparecen en la consola para ingresar los datos requeridos.
 
-### Solucionar Sistemas de Ecuaciones con Métodos Numéricos 
+### 3. Solucionar Sistemas de Ecuaciones con Métodos Numéricos 
 Nombre del código: "Newton_Raphson"
 
 #### Funcionalidad
@@ -60,7 +60,7 @@ Modificar los parametros dentro del codigo para el sistema de ecuaciones que des
 
 ## 2do Parcial: 
 
-### Programa para obtener la MTH por art, MTH final, Jacobiana y vector velocidad de un robot de n GDL
+### 1. Programa para obtener la MTH por art, MTH final, Jacobiana y vector velocidad de un robot de n GDL
 Nombre del código: "Jacobiana_directa"
 
 ### Funcionalidad
@@ -82,7 +82,7 @@ El programa se ejecuta en un entorno de Python, solicitando al usuario que ingre
 
 
 
-### Programa para calcular la Jacobiana Inversa de un robot de n GDL
+### 2. Programa para calcular la Jacobiana Inversa de un robot de n GDL
 Nombre del código: "Jacobiana_Inversa"
 
 ### Funcionalidad
@@ -101,7 +101,7 @@ Este programa calcula la matriz Jacobiana inversa de un robot de N grados de lib
 
 El programa se ejecuta en un entorno de Python, solicitando al usuario que ingrese los parámetros DH y el tipo de cada articulación. Luego, muestra los resultados de las matrices y los cálculos de velocidad.
 
-### Programa para Simulación de Robot de 2 GDL con Integración de Euler
+### 3. Programa para Simulación de Robot de 2 GDL con Integración de Euler
 Nombre del código: "Integracion_euler"
 
 ### Funcionalidad
